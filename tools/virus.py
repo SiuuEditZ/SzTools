@@ -5,7 +5,7 @@ import time
 def run():
     print(Fore.CYAN + "\n🔍 VirusTotal Web Scanner")
     print(Fore.YELLOW + "⚠️  Gunakan untuk URL publik yang valid!" + Style.RESET_ALL)
-    api_key = "07b77997b2049b86cb0498f2ba06fcce38257a37265caff647cfc6ed7909654e"  
+    api_key = "YOUR_APIKEY"  
 
     url = input(Fore.GREEN + "\n🌐 Masukkan URL website: " + Style.RESET_ALL).strip()
 
