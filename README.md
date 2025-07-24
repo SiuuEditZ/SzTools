@@ -52,7 +52,7 @@ git clone https://github.com/BosLanz/OSINT-Toolkit.git
 cd OSINT-Toolkit
 pip install -r requirements.txt
 python main.py
-
+```
 ---
 
 ## 🔌 Requirements
