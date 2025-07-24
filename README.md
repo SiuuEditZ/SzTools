@@ -50,4 +50,25 @@ Toolkit investigasi OSINT serbaguna. Bisa buat:
 ```bash
 git clone https://github.com/BosLanz/OSINT-Toolkit.git
 cd OSINT-Toolkit
+pip install -r requirements.txt
 python main.py
+
+---
+
+## 🔌 Requirements
+Python 3.x
+Modules: requests, colorama, beautifulsoup4, dll (otomatis terinstall dari requirements.txt)
+
+---
+
+## ⚙️ ⚠️ Disclaimer
+
+Harap gunakan tools ini dengan bijaksana!, 
+Kami tidak bertanggung jawab atas penyalahgunaan alat ini.
+
+---
+
+## 👤 Author
+Made with 💙 by SiuuEditZ
+DM me if you got crazy ideas 💬
+
