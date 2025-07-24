@@ -1,0 +1,2 @@
+# SzTools
+OSINT Toolkit
