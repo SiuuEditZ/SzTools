@@ -54,7 +54,7 @@ Modules: requests, colorama, beautifulsoup4, dll (otomatis terinstall dari requi
 ## ⚙️ Cara Install
 
 ```bash
-git clone https://github.com/SiuuEditZ/SzTools
+git clone https://github.com/SiuuEditZ/SzTools.git
 cd OSINT-Toolkit
 pip install -r requirements.txt
 python main.py
