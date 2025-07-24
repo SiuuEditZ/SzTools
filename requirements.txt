@@ -1,0 +1,6 @@
+colorama
+requests
+dnspython
+python-whois
+validators
+ping3
