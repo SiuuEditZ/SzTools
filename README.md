@@ -21,7 +21,10 @@ Toolkit investigasi OSINT serbaguna. Bisa buat:
 ![preview](https://files.catbox.moe/ycl3y3.png) 
 
 ---
-
+## 🔌 Requirements
+Python 3.x
+Modules: requests, colorama, beautifulsoup4, dll (otomatis terinstall dari requirements.txt)
+---
 ## 🧠 Fitur-Fitur Utama
 
 1. IP Tracker 📍
@@ -53,12 +56,6 @@ cd OSINT-Toolkit
 pip install -r requirements.txt
 python main.py
 ```
----
-
-## 🔌 Requirements
-Python 3.x
-Modules: requests, colorama, beautifulsoup4, dll (otomatis terinstall dari requirements.txt)
-
 ---
 
 ## ⚙️ ⚠️ Disclaimer
