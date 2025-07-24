@@ -18,7 +18,7 @@ Toolkit investigasi OSINT serbaguna. Bisa buat:
 
 ## 📸 Preview Terminal
 
-![preview](https://i.imgur.com/GUuXxSU.png) <!-- Ganti ke screenshot terminal lu -->
+![preview](https://files.catbox.moe/ycl3y3.png) 
 
 ---
 
