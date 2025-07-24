@@ -21,9 +21,12 @@ Toolkit investigasi OSINT serbaguna. Bisa buat:
 ![preview](https://files.catbox.moe/ycl3y3.png) 
 
 ---
+
 ## 🔌 Requirements
+APIKEY(https://www.virustotal.com)
 Python 3.x
 Modules: requests, colorama, beautifulsoup4, dll (otomatis terinstall dari requirements.txt)
+
 ---
 ## 🧠 Fitur-Fitur Utama
 
