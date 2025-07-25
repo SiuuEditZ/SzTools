@@ -1,5 +1,7 @@
-from colorama import Fore, Style
+from colorama import Fore, Style, init
 import os
+from getpass import getpass
+init()
 
 def banner():
     print(Fore.CYAN + """\
@@ -10,6 +12,16 @@ def banner():
 ██████╔╝███████╗░░░██║░░░╚█████╔╝╚█████╔╝███████╗██████╔╝
 ╚═════╝░╚══════╝░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝╚═════╝░
 """ + Style.RESET_ALL)
+
+def login():
+    username = input("👤 Username: ")
+    password = input("🔒 Password: ") 
+
+    if username == "tarot" and password == "ramalan":
+        print(Fore.GREEN + "✅ Login berhasil!\n" + Style.RESET_ALL)
+    else:
+        print(Fore.RED + "❌ Login gagal! Coba lagi yaa..." + Style.RESET_ALL)
+        exit()
 
 def menu():
     print(Fore.YELLOW + """\
@@ -54,17 +66,24 @@ def run_tool(choice):
         case "16": import tools.leak as tool; tool.run()
         case "17": import tools.virus as tool; tool.run()
         case "18": import tools.stalk as tool; tool.run()
-        case "0": 
+        case "0":
             print(Fore.GREEN + "👋 Byee!" + Style.RESET_ALL)
             exit()
-        case _: 
+        case _:
             print(Fore.RED + "❌ Pilihan tidak valid, coba lagi yaa!" + Style.RESET_ALL)
 
 if __name__ == "__main__":
+    os.system("cls" if os.name == "nt" else "clear")
+    banner()
+    login()
     while True:
         os.system("cls" if os.name == "nt" else "clear")
         banner()
         menu()
-        pilih = input(Fore.GREEN + "💬 Pilih menu: " + Style.RESET_ALL)
-        run_tool(pilih)
+        try:
+            pilih = input(Fore.GREEN + "💬 Pilih menu: " + Style.RESET_ALL)
+            run_tool(pilih)
+        except KeyboardInterrupt:
+            print(Fore.RED + "\nByee" + Style.RESET_ALL)
+            exit()
         input(Fore.MAGENTA + "\n🔁 Tekan Enter untuk kembali ke menu..." + Style.RESET_ALL)
