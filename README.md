@@ -21,7 +21,10 @@ Toolkit investigasi OSINT serbaguna. Bisa buat:
 ![preview](https://files.catbox.moe/ycl3y3.png) 
 
 ---
-
+## Login
+User : tarot
+Password : ramalan
+---
 ## 🔌 Requirements
 APIKEY(https://www.virustotal.com)
 Python 3.x
